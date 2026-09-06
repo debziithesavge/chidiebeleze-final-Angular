@@ -1,0 +1,73 @@
+/* .navbar{    
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    gap: 8 rem;
+    align-items: center;
+    border-bottom: 1px solid rgb(87, 86, 86);
+  
+}
+.navbar-items{
+    justify-content: center;    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    place-content: space-between;
+    padding: 0 1rem;
+    margin-right: 5rem;
+    
+}
+.navbar a{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(87, 86, 86);
+    text-decoration: none;
+    text-align: justify;
+    display: block;
+    padding: 0 1.5rem;
+    display: inline; 
+}
+.navbar li{
+    display: inline;
+}
+.navbar img{
+    margin: 1rem 0 .5rem 10rem;
+    height: 40px;
+    width: auto;
+    
+} */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    border-bottom: 1px solid rgb(87, 86, 86);
+}
+.navbar img{
+    margin: 1rem 0 .5rem 10rem;
+    height: 40px;
+    width: auto;   
+}
+.navbar ul{
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin: 1.5rem 5rem 0 3rem;
+}
+.dropdown{
+    margin: 0;
+    padding: 0;
+}
+/* .navbar a{
+    gap: 2rem;
+} */

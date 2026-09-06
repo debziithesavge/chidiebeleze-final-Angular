@@ -1,0 +1,74 @@
+.hero-section{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section h2{
+    padding: .5rem 0 2.5rem;
+    margin-top: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.hero-section h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.hero-section p{
+    padding: 1.5rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+.buttonS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttonS button{
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    font-weight: 700;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    padding: .5rem 1rem;
+    margin-bottom: .3rem;
+    border: 0;
+    border-radius: .2rem;
+}
+.buttonS button:hover{
+    background-color: white;
+    color: rgb(0, 81, 255);
+    border: 1px solid rgb(0, 81, 255);
+}
+
+.buttonS p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: .7rem;
+}
+.buttonS a{
+    color: rgb(0, 81, 255);
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.image-container{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 12rem 0;
+    height: auto;
+}
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+

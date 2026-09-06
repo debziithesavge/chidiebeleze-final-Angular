@@ -1,0 +1,77 @@
+/* --- Section 4: side by side text section --- */
+.grid-features-section {
+    background-color: rgb(255, 255, 255);
+    padding: 120px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 80px;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.grid-feature-item {
+    border-top: 1.5px solid rgb(255, 74, 90);
+    padding-top: 30px;
+}
+
+.grid-feature-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.35;
+    color: #212529;
+    letter-spacing: -0.5px;
+}
+
+/* Section 5: CTA section */
+.cta-section {
+    background-color: rgb(255, 255, 255);
+    padding: 60px 20px 120px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    max-width: 1140px;
+    width: 100%;
+    text-align: center;
+}
+
+.cta-divider {
+    width: 80px;
+    height: 1.5px;
+    background-color: rgb(226, 232, 240);
+    margin: 0 auto 50px auto;
+}
+
+.cta-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: rgb(33, 37, 41);
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+}
+
+.btn-cta-purchase {
+    display: inline-block;
+    color: rgb(0, 123, 255);
+    border: 1.5px solid rgb(0, 123, 255);
+    padding: 14px 40px;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-cta-purchase:hover {
+    background-color: rgb(0, 123, 255);
+    color: rgb(255, 255, 255);
+}

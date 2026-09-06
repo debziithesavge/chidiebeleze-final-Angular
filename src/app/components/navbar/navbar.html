@@ -1,0 +1,15 @@
+<div class="navbar">
+    <img [src]="ImageUrl" alt="Nav Image"/>
+    @if (showLinks){
+        <div class="flex flex-col">
+            <ul>
+                
+                @for(link of navLink; track link.links){
+                <li>
+                    <a [routerLink]="link.links">{{link.label}}</a>
+                </li>
+            }
+            </ul>
+        </div>
+    }
+</div>

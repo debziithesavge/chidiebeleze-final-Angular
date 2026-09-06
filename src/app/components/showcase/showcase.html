@@ -1,0 +1,14 @@
+<section class="showcase">
+    <p>{{ SectionText() }}</p>
+</section>
+<div class="showcase-grid">
+    @for (item of ImgArrays; track item.link + item.title) {
+        <article class="showcase-item">
+            <h2>{{ item.title }}</h2>
+            <a [href]="item.link" target="_blank" rel="noopener noreferrer">
+                <img [src]="item.image" [alt]="item.title" />
+            </a>
+        </article>
+    }
+    
+</div>

@@ -1,0 +1,61 @@
+<div class="form-box">
+    <label for="FullName" class="label-box">
+        <span>Full Name</span>
+        <input 
+            id="FullName"
+            type="text"
+            [(ngModel)]="FullName"
+            class="input-box"   />
+
+    </label>
+
+    <label for="Age" class="label-box">
+        <span>Age</span>
+        <input
+         id="Age"
+         type="number"
+         [(ngModel)]="Age"
+         class="input-box"   />
+    </label>
+
+    <label for="MobileNumber" class="label-box">
+        <span>Mobile Number</span>
+        <input 
+            id="MobileNumber"
+            type="number"
+            [(ngModel)]="MobileNumber"
+            class="input-box"   />
+
+    </label>
+
+    <label for="Email" class="label-box">
+        <span>Email</span>
+        <input 
+            id="Email"
+            type="email"
+            [(ngModel)]="Email"
+            class="input-box"   />
+
+    </label>
+
+    <label for="DoB" class="label-box">
+        <span>Date of Birth</span>
+        <input 
+            id="DoB"
+            type="date"
+            [(ngModel)]="DoB"
+            class="input-box"   />
+
+    </label>
+
+    <app-button [buttonText]="btnTexts" (clickOutput)="submitFn()"></app-button>
+
+    <h1 class="text-lg font-medium">User Details</h1>
+    <p>Full Name: {{ FullName }}</p>
+    <p>Age: {{ Age }}</p>
+    <p>Mobile Number: {{ MobileNumber }}</p>
+    <p>Email: {{ Email }}</p>
+    <p>Date of Birth: {{ DoB }}</p>
+</div>
+
+<app-footer></app-footer>
